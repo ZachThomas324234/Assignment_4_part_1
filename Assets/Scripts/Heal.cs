@@ -16,6 +16,8 @@ public class Heal : MonoBehaviour
     public int EnemyMaxHealth = 25;
     public int EnemyDamage = 15;
 
+    private Timers timers;
+
 
     // Start is called before the first frame update
     void Start()
